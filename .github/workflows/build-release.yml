@@ -18,6 +18,16 @@ jobs:
             target: macos-x86_64
           - os: ubuntu-latest
             target: linux-x86_64
+          - os: ubuntu-latest
+            target: linux-arm64
+          - os: debian-latest
+            target: linux-x86_64
+          - os: debian-latest
+            target: linux-arm64
+          - os: debian-sid
+            target: linux-x86_64
+          - os: debian-sid
+            target: linux-arm64
           - os: windows-latest
             target: windows-x86_64
 
